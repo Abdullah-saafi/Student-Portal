@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    background-color: var(--p-color) ;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.main1{
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgb(122, 114, 114);
+}
+.main1 h1{
+    margin: 1rem 0rem;
+}
+
+.schl-nam{
+    color: var(--s-color);
+    font-size: 2.5rem;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    padding:0rem 2em;
+    width: 50%;
+
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 12rem;
+    margin-bottom: 1rem;
+}
+
+.sign-in h1{
+    font-size: 1.5rem;
+    font-weight:lighter;
+    margin: .6rem 0rem;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in input{
+    border: 1px solid rgb(155, 150, 150);
+}
+.wrng{
+    color: red;
+    margin: .3rem 0rem;
+    display: none;
+}
+
+.login-btn{
+    background-color: var(--s-color);
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 30%;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: .6rem 0rem;
+}
+
+.rgstr{
+    font-size: .6rem;
+}
+
+.login-help{
+    font-size: .8rem;
+    padding-right: 1rem ;
+    margin: 2.5rem 0rem;
+}
+
+.hlp-lnk{
+    color: red;
+}
+
+.frgt-pwd{
+    font-size: .9rem;
+    color: rgb(188, 182, 182);
+    margin-top: 1rem;
+}
+
+.rgstr-link{
+    color: var(--s-color);
+    padding: .2rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+}
+
+@media ( max-width:600px) {
+    .main1{
+        display: none;
+    }
+
+    .main2{
+        align-items: center;
+        width: 90%;
+    }
+    .sign-in h1{
+        font-size: 1rem;
+    }
+    
+}
+
+/* Registration Form Css */
