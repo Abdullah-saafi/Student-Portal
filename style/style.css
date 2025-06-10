@@ -8,10 +8,10 @@ body{
 .main{
     display: flex;
     width: 80vw;
-    margin: auto;
     background-color: var(--p-color) ;
-    overflow: hidden;
+    overflow: hidden;   
     border-radius: 1rem;
+    margin: auto;
 }
 
 .main1{
@@ -46,24 +46,19 @@ body{
     margin-bottom: 1rem;
 }
 
-.sign-in h1{
+.login-data h1{
     font-size: 1.5rem;
     font-weight:lighter;
     margin: .6rem 0rem;
 }
 
-.sign-in{
+.login-data{
     display: flex;
     flex-direction: column;
 }
 
-.sign-in input{
+.login-data input{
     border: 1px solid rgb(155, 150, 150);
-}
-.wrng{
-    color: red;
-    margin: .3rem 0rem;
-    display: none;
 }
 
 .login-btn{
@@ -77,8 +72,8 @@ body{
     margin: .6rem 0rem;
 }
 
-.rgstr{
-    font-size: .6rem;
+.register{
+    font-size: .8rem;
 }
 
 .login-help{
@@ -113,7 +108,7 @@ body{
         align-items: center;
         width: 90%;
     }
-    .sign-in h1{
+    .login-data h1{
         font-size: 1rem;
     }
     

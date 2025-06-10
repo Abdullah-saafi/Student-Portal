@@ -1,0 +1,20 @@
+{
+  "name": "student-profile-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./js/script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdullah-saafi/Student-Portal.git"
+  },
+  "keywords": [],
+  "author": "Abdullah saafi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdullah-saafi/Student-Portal/issues"
+  },
+  "homepage": "https://github.com/Abdullah-saafi/Student-Portal#readme",
+  "description": ""
+}
