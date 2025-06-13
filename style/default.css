@@ -9,13 +9,15 @@
   list-style-type: none;
   scroll-behavior: smooth;
   font-family: var(--body-font);
-  color: white;
 }
 :root {
   --title-font: "Saira", Helvetica, Arial, sans-serif;
   --body-font: "Nunito", Helvetica, Arial, sans-serif;
-  --p-color: #424242;
-  --s-color: #1E90FF;
+  --p-color: rgb(146,95,226);
+  --s-color: rgb(106,79,149);
+  --half-white:rgb(211, 205, 205);
+  --light-gray:rgb(87, 88, 92);
+  --dark-gray:rgb(28,29,33);
 }
 a {
   color: inherit;
@@ -39,15 +41,3 @@ img {
   background: #f2f2f2;
   border-radius: 6px;
 }
-input{
-  border-radius: .5rem;
-  border-color: var(--s-color);
-  background-color: var(--p-color);
-  margin-bottom: .5rem ;
-  padding: .6rem 1rem;
-  width: 80%;
-}
-
-/* input::placeholder{
-  font-size: 1rem;
-} */
