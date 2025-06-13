@@ -182,6 +182,13 @@ ul li img{
     width: 80%;
     padding: 0rem 1.5rem;
 }
+.dash-main{
+    display: flex;
+
+}
+.dash-main1{
+    width: 70%;
+}
 .search input{
     border-radius: 1rem;
     padding: .6rem 1rem;
@@ -245,21 +252,115 @@ ul li img{
     margin-bottom: .5rem;
 }
 .dash-finance{
-    margin: 1.5rem 1rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
 .dash-finance h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: .6rem;
 }
 .dash-finance ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .dash-finance ul li {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    padding: 3rem;
+    padding: 1.5rem 3rem;
     border-radius: 2rem;
     text-align: center;
 
+}
+.dash-finance ul li i{
+    font-size: 3rem;
+}
+.dash-course{
+    margin: 1rem 1rem;
+}
+.dash-finance ul li p{
+    opacity: 0.5;    
+    font-size: .9rem;
+}
+.dash-course h2{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+
+.courses ul{
+    display: flex;
+    justify-content: space-around;
+}
+.courses ul li{
+    display: flex;
+    align-items: center;
+    background-color: rgb(146,95,226,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: var(--p-color);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 0rem 2rem ;
+
+
+}
+.course-data{
+    padding: 1rem;
+}
+.course-data h6{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.course-data button{
+    background-color: var(--p-color);
+    color: white;
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+}
+.course-img i{
+    font-size: 5rem;
+}
+
+.instractor-profile img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 4px solid var(--p-color);
+    
+}
+
+.dash-main2{
+    margin-top: 1.5rem ;
+    width: 30%;
+}
+.dash-main2 h6{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+
+.notice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.notice-data{
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+
+}
+.notice p{
+    color: var(--p-color);
+}
+
+.notice-data ul li h1{
+    font-size: 1rem;
+}
+.notice-data ul li h6{
+    font-size: .8rem;
+    opacity: .5;
+}
+.notice-data ul li p{
+    color: var(--p-color);    
+    font-weight: 600;
 }

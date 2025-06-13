@@ -1,81 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Student-Portal</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/default.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/default.css" />
+  </head>
+  <body>
     <main class="home-main">
-        <div class="side-bar">
-            <ul>
-                <li><img  src="./imgs/logo.png" alt="Logo"></li>
-                <li><i class="bi bi-house-door-fill"></i>&nbsp; DashBoard</li>
-                <li><i class="bi bi-wallet-fill"></i>&nbsp; Payment Info</li>
-                <li><i class="bi bi-pen-fill"></i>&nbsp; Registration</li>
-                <li><i class="bi bi-bookmarks-fill"></i>&nbsp; Courses</li>
-                <li><i class="bi bi-bookmark-check-fill"></i>&nbsp; Results</li>
-                <li><i class="bi bi-info-square-fill"></i>&nbsp; Notice</li>
-                <li><i class="bi bi-calendar-check-fill"></i>&nbsp; Schedule</li>
-                <li class="last-li"><i class="bi bi-box-arrow-left"></i>&nbsp; Logout</li>
-            </ul>
-        </div>
-        <div class="dashboard">
-            <nav class="dash-nav">
-               <div class="search">
-                <input type="search" placeholder="Search">
-               </div>
-               <div class="profile">
-                <div class="profile-pic">
-                    <img src="./imgs/profile pic.jpg" alt="">
-                </div>
-                <div class="profile-name">
-                    <h6>Ashar Saafi</h6>
-                    <p>3rd Year</p>
-
-
-                </div>
-
-               </div>
-               <div class="noti">
-                <i class="bi bi-bell-fill"></i>
-               </div>
-            </nav>
-            <div class="profile-data">
-                <div class="welcome-msg">
-                    <p>Novemver 21, 2021 </p>
-                    <h1>Welcome Back, Ashar Saafi!</h1>
-                    <p>Always stay updated in your student portal</p>
-                </div>
-                <div class="welcome-img">
-                    <img src="./imgs/dashboard img2.png" alt="">
-
-                </div>
+      <div class="side-bar">
+        <ul>
+          <li><img src="./imgs/logo.png" alt="Logo" /></li>
+          <li><i class="bi bi-house-door-fill"></i>&nbsp; DashBoard</li>
+          <li><i class="bi bi-wallet-fill"></i>&nbsp; Payment Info</li>
+          <li><i class="bi bi-pen-fill"></i>&nbsp; Registration</li>
+          <li><i class="bi bi-bookmarks-fill"></i>&nbsp; Courses</li>
+          <li><i class="bi bi-bookmark-check-fill"></i>&nbsp; Results</li>
+          <li><i class="bi bi-info-square-fill"></i>&nbsp; Notice</li>
+          <li><i class="bi bi-calendar-check-fill"></i>&nbsp; Schedule</li>
+          <li class="last-li">
+            <i class="bi bi-box-arrow-left"></i>&nbsp; Logout
+          </li>
+        </ul>
+      </div>
+      <div class="dashboard">
+        <nav class="dash-nav">
+          <div class="search">
+            <input type="search" placeholder="Search" />
+          </div>
+          <div class="profile">
+            <div class="profile-pic">
+              <img src="./imgs/profile pic.jpg" alt="" />
             </div>
+            <div class="profile-name">
+              <h6>Ashar Saafi</h6>
+              <p>3rd Year</p>
+            </div>
+          </div>
+          <div class="noti">
+            <i class="bi bi-bell-fill"></i>
+          </div>
+        </nav>
+        <div class="profile-data">
+          <div class="welcome-msg">
+            <p>Novemver 21, 2021</p>
+            <h1>Welcome Back, Ashar Saafi!</h1>
+            <p>Always stay updated in your student portal</p>
+          </div>
+          <div class="welcome-img">
+            <img src="./imgs/dashboard img2.png" alt="" />
+          </div>
+        </div>
+        <div class="dash-main">
+          <div class="dash-main1">
             <div class="dash-finance">
-                <h1>Finanace</h1>
-                <ul>
-                    <li>
-                        <i class="bi bi-cash-coin"></i>
-                        <h4>35000 PKR</h4>
-                        <p>Total Fee</p>
-                    </li>
-                      <li>
-                          <i class="bi bi-cash-coin"></i>
-                        <h4>16000 PKR</h4>
-                        <p>Total Paid</p>
-                      </li>
-                    <li>
-                        <i class="bi bi-reception-4"></i>
-                        <h4>12000 PKR</h4>
-                        <p>Others</p>
-                    </li>
-                </ul>
+              <h1>Finanace</h1>
+              <ul>
+                <li>
+                  <i class="bi bi-cash-coin"></i>
+                  <h4>35000 PKR</h4>
+                  <p>Total Fee</p>
+                </li>
+                <li>
+                  <i class="bi bi-cash-coin"></i>
+                  <h4>16000 PKR</h4>
+                  <p>Total Paid</p>
+                </li>
+                <li>
+                  <i class="bi bi-reception-4"></i>
+                  <h4>12000 PKR</h4>
+                  <p>Others</p>
+                </li>
+              </ul>
             </div>
-            <div class="dash-course"></div>
+            <div class="dash-course">
+              <h2>Enrolled Courses</h2>
+              <div class="courses">
+                <ul>
+                  <li>
+                    <div class="course-data">
+                      <h6>Object oriented Programing</h6>
+                      <button>Veiw</button>
+                    </div>
+                    <div class="course-img">
+                      <i class="bi bi-pc-display-horizontal"></i>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="course-data">
+                      <h6>Fundamentals of database systems</h6>
+                      <button>Veiw</button>
+                    </div>
+                    <div class="course-img">
+                      <i class="bi bi-bar-chart-steps"></i>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="dash-main2">
+            <div class="instructor">
+              <h6>Course Instractor</h6>
+              <div class="instractor-profile">
+                <img src="./imgs/teacher1.jpg" alt="" />
+                <img src="./imgs/teacher2.png" alt="" />
+                <img src="./imgs/teacher03.png" alt="" />
+              </div>
+            </div>
+            <div class="notice">
+              <h6>Daily Notices</h6>
+              <p>See all</p>
+            </div>
+            <div class="notice-data">
+              <ul>
+                <li>
+                  <h1>Final Term Examination Schedule</h1>
+                  <h6>
+                    The final term exams for BS Computer Science (6th Semester)
+                    will commence from 
+                  </h6>
+                  <p>See more</p>
+                </li>
+                   <li>
+                  <h1>Semester Fee Submission Deadline</h1>
+                  <h6>
+                    All students are informed to submit their semester fees for Fall 2025
+                  </h6>
+                  <p>See more</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
