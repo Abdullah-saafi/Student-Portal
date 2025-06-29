@@ -1,0 +1,308 @@
+
+    .main{
+     display: flex;
+    /* max-height: 100vh; */
+    padding: 2rem;
+ 
+ }
+ .nav-icon{
+    display: none;
+    cursor: pointer;
+    margin-right:  2rem;
+}
+#close-icon{
+    display: none;
+    text-align: right;
+
+}
+.side-bar{
+    background-color: var(--p-color);
+    color: white;
+    padding: 2rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    height:90%
+    
+    
+
+}
+.side-bar ul li img{
+    width: 100px;
+}
+    
+ul li{
+    margin-bottom: 1.8rem;
+    cursor: pointer;
+}
+ul li img{
+    background-color: var(--p-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.last-li{
+    margin-top: 5rem;
+}
+
+
+.dash-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dashboard{
+    padding: 0rem 1.5rem;
+
+}
+
+.search input{
+    border-radius: 1rem;
+    padding: .6rem 1rem;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    min-width:30vw ;
+    margin-right: 1rem;
+}
+
+.search input::placeholder{
+    text-align: right;
+    font-size: 1rem;
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.profile-pic {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid var(--p-color);
+    
+}
+.profile-name{
+    margin-left: .6rem;
+}
+
+.profile-name h6{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+
+.profile-name p{
+    color: rgb(143, 140, 140);
+}
+
+
+.profile-data{
+    background-color: var(--p-color);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-bottom: 0rem;
+}
+.welcome-img img{
+    max-height: 10rem;
+    overflow:visible;
+}
+.welcome-msg{
+    padding-top: 1.5rem;
+}
+.welcome-msg p{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.welcome-msg h1{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+.dash-main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.dash-finance{
+    margin: 1rem 1rem 0rem 1rem;
+}
+.dash-finance h1{
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
+}
+.dash-finance ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.dash-finance ul li {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    text-align: center;
+
+}
+.dash-finance ul li i{
+    font-size: 3rem;
+}
+.dash-course{
+    margin: 1rem 1rem;
+}
+.dash-finance ul li p{
+    opacity: 0.5;    
+    font-size: .9rem;
+}
+.dash-course h2{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+
+.courses ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.courses ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(146,95,226,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: var(--p-color);
+    padding: 1rem;
+    border-radius: 2rem;
+
+
+}
+.course-data{
+    padding: 1rem;
+}
+.course-data h6{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.course-data button{
+    background-color: var(--p-color);
+    color: white;
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+}
+.course-img i{
+    font-size: 3rem;
+}
+.instractor-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.instractor-profile img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 4px solid var(--p-color);
+    
+}
+.dash-main1{
+    width: 60%;
+    margin-right: 1.5rem;
+}
+.dash-main2{
+    margin-top: 1.5rem ;
+    width: 30%;
+}
+.dash-main2 h6{
+    font-size: 1rem;
+    margin-bottom: .6rem;
+}
+
+.notice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.notice-data{
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+
+}
+.notice p{
+    color: var(--p-color);
+}
+
+.notice-data ul li h1{
+    font-size: 1rem;
+}
+.notice-data ul li h6{
+    font-size: .8rem;
+    opacity: .5;
+}
+.notice-data ul li p{
+    color: var(--p-color);    
+    font-weight: 600;
+}
+
+ @media (max-width:1000px) {
+    .home-main{
+    /* display: block; */
+}
+    .side-bar{
+        display: none;
+        width: 100%;
+        min-height: 100%;
+    }
+    #close-icon{
+    display: block;
+
+}
+.search input{
+
+    max-width:30vw ;
+}
+
+.nav-icon{
+    display: block;
+}
+    .side-bar{
+        display: none;
+    }
+    
+
+    .dash-finance{
+    text-align: center;
+}
+.welcome-img img{
+    display: none;
+}
+.dash-course{
+    text-align: center;
+}
+.dash-main1{
+    width: 100%;
+}
+.dash-main2{
+    width: 100%;
+}
+.dashboard{
+    padding: 0rem;
+
+}
+
+}  
